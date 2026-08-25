@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Política de Privacidad de Fórmula Dinero" />
+  <title>Fórmula Dinero | Política de Privacidad</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --text:#1f2937;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --soft:#fafafa;
+      --max:900px;
+      --head:"Space Grotesk",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      --body:"Sora",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:#fff;
+      color:var(--text);
+      font-family:var(--body);
+      line-height:1.7;
+      -webkit-font-smoothing:antialiased;
+    }
+    a{color:#1f2937;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .topbar{border-bottom:1px solid var(--line);background:#fff}
+    .topbar-inner{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:18px 24px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .brand{font-family:var(--head);font-weight:700}
+    .toplink{font-size:.88rem;color:var(--muted)}
+    main{max-width:var(--max);margin:0 auto;padding:52px 24px 70px}
+    .hero{padding:0 0 34px;border-bottom:1px solid var(--line)}
+    .eyebrow{
+      display:block;
+      font-size:.75rem;
+      font-weight:600;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      color:var(--muted);
+      margin-bottom:10px;
+    }
+    h1,h2,h3{
+      font-family:var(--head);
+      line-height:1.2;
+      letter-spacing:-.025em;
+    }
+    h1{font-size:clamp(2.2rem,5vw,3.5rem);margin:0 0 12px}
+    .hero p{max-width:730px;margin:0;color:var(--muted)}
+    .meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:22px;font-size:.85rem;color:var(--muted)}
+    .notice{
+      margin:24px 0;
+      padding:15px 18px;
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:8px;
+      color:#4b5563;
+      font-size:.88rem;
+    }
+    .toc{
+      margin:30px 0 40px;
+      padding:0 0 30px;
+      border-bottom:1px solid var(--line);
+    }
+    .toc h2{font-size:1.15rem;margin:0 0 16px}
+    .toc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 24px}
+    .toc a{font-size:.86rem;color:var(--muted)}
+    article{background:#fff}
+    section{
+      scroll-margin-top:30px;
+      padding:0 0 28px;
+      margin:0 0 30px;
+      border-bottom:1px solid var(--line);
+    }
+    section:last-child{border-bottom:0}
+    h2{font-size:1.45rem;margin:0 0 15px}
+    h3{font-size:1.05rem;margin:20px 0 8px}
+    p{margin:0 0 14px}
+    ul{margin:8px 0 15px;padding-left:22px}
+    li{margin:6px 0}
+    .callout{
+      background:var(--soft);
+      border-left:3px solid #9ca3af;
+      padding:14px 16px;
+      margin:16px 0;
+    }
+    .footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:32px}
+    @media(max-width:720px){
+      main{padding:34px 18px 55px}
+      .topbar-inner{padding:15px 18px}
+      .toc-grid{grid-template-columns:1fr}
+    }
+    @media print{
+      .topbar,.toc,.notice{display:none!important}
+      main{max-width:none;margin:0;padding:0}
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="hero">
+      <span class="eyebrow">Documentos legales</span>
+      <h1>Política de Privacidad</h1>
+      <p>Esta Política explica qué información recopilamos, para qué la utilizamos, cómo puede compartirse y qué opciones y derechos pueden corresponder al Usuario.</p>
+      <div class="meta">
+        <span><strong>Versión:</strong> 1.0</span>
+        <span><strong>Entrada en vigor:</strong> 1 de agosto del 2026</span>
+        <span><strong>Última actualización:</strong> 10 de agosto del 2026</span>
+      </div>
+    </div>
+    <nav class="toc" aria-label="Tabla de contenido">
+      <h2>Contenido</h2>
+      <div class="toc-grid">
+        <a href="#alcance">1. Alcance</a>
+        <a href="#responsable">2. Quién es responsable</a>
+        <a href="#principios">3. Nuestros principios de privacidad</a>
+        <a href="#recopilamos">4. Información que recopilamos</a>
+        <a href="#no-recopilamos">5. Información que FD no solicita normalmente</a>
+        <a href="#automaticos">6. Información recopilada automáticamente</a>
+        <a href="#uso">7. Cómo utilizamos la información</a>
+        <a href="#dashboard">8. Información financiera y dashboard</a>
+        <a href="#ia">9. Inteligencia Artificial</a>
+        <a href="#coaching">10. Coaching y comunicaciones</a>
+        <a href="#pagos">11. Pagos</a>
+        <a href="#terceros">12. Proveedores de servicios</a>
+        <a href="#profesionales">13. Proveedores financieros y profesionales</a>
+        <a href="#emc">14. El Menudo Cuenta y servicios regulados</a>
+        <a href="#compartir">15. Cuándo compartimos información</a>
+        <a href="#venta">16. Venta, publicidad y marketing</a>
+        <a href="#cookies">17. Cookies y tecnologías similares</a>
+        <a href="#retencion">18. Retención de datos</a>
+        <a href="#cancelacion">19. Cancelación y eliminación</a>
+        <a href="#derechos">20. Derechos y opciones del Usuario</a>
+        <a href="#internacional">21. Usuarios internacionales</a>
+        <a href="#transferencias">22. Transferencias internacionales</a>
+        <a href="#seguridad">23. Seguridad</a>
+        <a href="#menores">24. Menores</a>
+        <a href="#enlaces">25. Servicios y enlaces de terceros</a>
+        <a href="#cambios">26. Cambios a esta Política</a>
+        <a href="#contacto">27. Contacto</a>
+      </div>
+    </nav>
+
+    <article>
+      <section id="alcance">
+        <h2>1. Alcance</h2>
+        <p>Esta Política de Privacidad ("Política") describe las prácticas de privacidad aplicables a Fórmula Dinero ("Fórmula Dinero", "FD", "nosotros" o "nuestro"), operado por <strong>Xavier Serbia Multimedia LLC</strong>.</p>
+        <p>Esta Política aplica a la información personal recopilada mediante nuestros sitios web, web apps, aplicaciones, herramientas digitales, procesos de registro, formularios, sesiones, comunicaciones y demás funcionalidades de Fórmula Dinero.</p>
+        <p>Determinados servicios integrados, especialmente servicios financieros regulados o servicios prestados directamente por terceros, podrán estar sujetos a políticas de privacidad independientes. Cuando corresponda, identificaremos al proveedor responsable y pondremos a disposición del Usuario la documentación aplicable.</p>
+      </section>
+
+      <section id="responsable">
+        <h2>2. Quién es responsable de la información</h2>
+        <p>Salvo que se indique expresamente lo contrario respecto de un Servicio específico, Xavier Serbia Multimedia LLC es responsable de las prácticas de privacidad de las funcionalidades generales de Fórmula Dinero descritas en esta Política.</p>
+        <p>Cuando el Usuario decida utilizar un servicio proporcionado por un tercero, entidad afiliada, profesional o proveedor regulado, dicho proveedor podrá actuar como responsable independiente de la información que recopile directamente.</p>
+      </section>
+
+      <section id="principios">
+        <h2>3. Nuestros principios de privacidad</h2>
+        <p>Fórmula Dinero busca recopilar y utilizar información de manera proporcional al propósito de ayudar al Usuario a organizar sus finanzas, desarrollar claridad financiera a largo plazo, construir su dashboard y mantenerse encaminado hacia sus metas.</p>
+        <p>Nuestros principios generales son:</p>
+        <ul>
+          <li>solicitar solamente información razonablemente necesaria para prestar y mejorar los Servicios;</li>
+          <li>explicar de forma clara para qué utilizamos la información;</li>
+          <li>limitar el acceso interno a quienes razonablemente lo necesiten;</li>
+          <li>utilizar proveedores tecnológicos apropiados para operar la Plataforma;</li>
+          <li>no solicitar credenciales financieras para las funciones generales de FD; y</li>
+          <li>proporcionar mecanismos para que el Usuario pueda ejercer los derechos que le correspondan bajo la legislación aplicable.</li>
+        </ul>
+      </section>
+
+      <section id="recopilamos">
+        <h2>4. Información que recopilamos</h2>
+        <p>Dependiendo de cómo utilice Fórmula Dinero, podremos recopilar las siguientes categorías de información:</p>
+
+        <h3>Información de registro y contacto</h3>
+        <ul>
+          <li>nombre y apellidos;</li>
+          <li>correo electrónico;</li>
+          <li>número de teléfono;</li>
+          <li>país, ciudad o información general de ubicación;</li>
+          <li>credenciales o identificadores asociados con la Cuenta; y</li>
+          <li>preferencias de comunicación.</li>
+        </ul>
+
+        <h3>Información financiera proporcionada por el Usuario</h3>
+        <ul>
+          <li>ingresos;</li>
+          <li>gastos;</li>
+          <li>ahorro;</li>
+          <li>balances o valores aproximados;</li>
+          <li>activos;</li>
+          <li>deudas y obligaciones;</li>
+          <li>patrimonio;</li>
+          <li>información general sobre seguros;</li>
+          <li>metas financieras;</li>
+          <li>horizontes de tiempo; y</li>
+          <li>otra información que el Usuario decida proporcionar para utilizar las herramientas de FD.</li>
+        </ul>
+
+        <h3>Información relacionada con el servicio</h3>
+        <ul>
+          <li>Paquete contratado;</li>
+          <li>Créditos de Coaching;</li>
+          <li>Sesiones Estratégicas adquiridas;</li>
+          <li>historial de programación y asistencia;</li>
+          <li>progreso dentro de la Plataforma;</li>
+          <li>respuestas a cuestionarios y evaluaciones;</li>
+          <li>metas y prioridades registradas; y</li>
+          <li>interacciones con herramientas, cursos y otros Servicios.</li>
+        </ul>
+
+        <h3>Comunicaciones</h3>
+        <p>Podremos conservar mensajes, solicitudes de soporte, comunicaciones con coaches, comentarios, respuestas a formularios y otras comunicaciones relacionadas con la prestación de los Servicios.</p>
+      </section>
+
+      <section id="no-recopilamos">
+        <h2>5. Información que Fórmula Dinero no solicita normalmente</h2>
+        <div class="callout"><strong>Para las funciones generales de Fórmula Dinero no necesitamos acceso directo a sus cuentas bancarias o de inversión.</strong></div>
+        <p>Como parte de su funcionamiento normal, FD no solicita al Usuario que proporcione:</p>
+        <ul>
+          <li>números completos de cuentas bancarias;</li>
+          <li>nombres de usuario o contraseñas de banca electrónica;</li>
+          <li>números completos de cuentas de inversión;</li>
+          <li>credenciales de acceso a cuentas de inversión;</li>
+          <li>números de Seguro Social;</li>
+          <li>PINs;</li>
+          <li>códigos de autenticación de instituciones financieras; ni</li>
+          <li>autorización para acceder directamente, transferir, retirar o invertir fondos desde las cuentas del Usuario.</li>
+        </ul>
+        <p>El Usuario no deberá introducir este tipo de información en campos de texto libre, mensajes a coaches, conversaciones con IA u otros espacios de Fórmula Dinero que no estén expresamente diseñados para recibirla.</p>
+        <p>Un Servicio separado, incluyendo EMC u otro servicio regulado, podrá requerir información adicional. En tal caso, dicha información será solicitada por la entidad responsable del Servicio bajo sus propias divulgaciones, términos y política de privacidad y no como parte de las funciones generales de Fórmula Dinero.</p>
+      </section>
+
+      <section id="automaticos">
+        <h2>6. Información recopilada automáticamente</h2>
+        <p>Cuando el Usuario utiliza la Plataforma, nosotros o nuestros proveedores tecnológicos podremos recopilar automáticamente determinada información técnica y de uso, como:</p>
+        <ul>
+          <li>dirección IP;</li>
+          <li>tipo de navegador y dispositivo;</li>
+          <li>sistema operativo;</li>
+          <li>idioma;</li>
+          <li>fechas y horas de acceso;</li>
+          <li>páginas o funcionalidades utilizadas;</li>
+          <li>eventos técnicos y registros de seguridad;</li>
+          <li>identificadores de sesión; y</li>
+          <li>información similar necesaria para operar, proteger y mejorar la Plataforma.</li>
+        </ul>
+      </section>
+
+      <section id="uso">
+        <h2>7. Cómo utilizamos la información</h2>
+        <p>Podremos utilizar la información para:</p>
+        <ul>
+          <li>crear y administrar la Cuenta;</li>
+          <li>prestar los Servicios adquiridos;</li>
+          <li>construir y actualizar dashboards, visualizaciones y evaluaciones;</li>
+          <li>personalizar la experiencia educativa;</li>
+          <li>ayudar al Usuario a organizar sus finanzas y monitorear metas;</li>
+          <li>facilitar sesiones de coaching;</li>
+          <li>proporcionar funcionalidades de IA;</li>
+          <li>procesar pagos y administrar renovaciones;</li>
+          <li>responder solicitudes de soporte;</li>
+          <li>enviar avisos operativos y legales;</li>
+          <li>detectar fraude, abuso o riesgos de seguridad;</li>
+          <li>mantener, analizar y mejorar la Plataforma;</li>
+          <li>cumplir obligaciones legales; y</li>
+          <li>ejercer o defender derechos legales.</li>
+        </ul>
+      </section>
+
+      <section id="dashboard">
+        <h2>8. Información financiera, Radiografía y dashboard</h2>
+        <p>La información financiera que el Usuario proporciona se utiliza principalmente para ayudarle a organizar su situación económica, desarrollar claridad financiera a largo plazo, crear visualizaciones y dashboards, identificar posibles prioridades y mantenerse encaminado hacia sus metas.</p>
+        <p>FD podrá utilizar esta información para generar la Radiografía Financiera, el Mapa Financiero, indicadores, categorías, escenarios, recordatorios, explicaciones educativas y otras herramientas disponibles en el Paquete correspondiente.</p>
+        <p>FD no audita ni certifica la información proporcionada por el Usuario.</p>
+      </section>
+
+      <section id="ia">
+        <h2>9. Inteligencia Artificial</h2>
+        <p>Fórmula Dinero podrá utilizar proveedores de tecnología de Inteligencia Artificial para habilitar determinadas funcionalidades.</p>
+        <p>Cuando el Usuario interactúe con una función de IA, la información necesaria para generar una respuesta podrá ser procesada por sistemas tecnológicos de FD y por proveedores que operen dicha tecnología en nuestro nombre.</p>
+        <p>Esto puede incluir el texto que el Usuario introduzca, instrucciones, preguntas y contexto financiero necesario para proporcionar una respuesta útil.</p>
+        <p>El Usuario no deberá introducir números de Seguro Social, credenciales bancarias, números completos de cuentas, PINs, contraseñas u otra información que FD expresamente indique que no debe proporcionarse.</p>
+        <p>Fórmula Dinero procurará utilizar la información proporcionada a las herramientas de IA únicamente para operar, proteger y mejorar las funcionalidades permitidas conforme a esta Política y a los acuerdos aplicables con nuestros proveedores.</p>
+      </section>
+
+      <section id="coaching">
+        <h2>10. Coaching, sesiones y comunicaciones</h2>
+        <p>Podremos conservar información relacionada con las sesiones, incluyendo programación, asistencia, notas, temas discutidos y comunicaciones necesarias para proporcionar continuidad al servicio.</p>
+        <p>Cuando una sesión sea grabada, se informará o solicitará el consentimiento cuando así lo requiera la legislación aplicable.</p>
+        <p>Las grabaciones, si existen, podrán utilizarse para los fines comunicados al Usuario, incluyendo documentación, control de calidad, capacitación o referencia.</p>
+      </section>
+
+      <section id="pagos">
+        <h2>11. Pagos</h2>
+        <p>Los pagos podrán ser procesados por proveedores especializados de procesamiento de pagos.</p>
+        <p>El proveedor de pagos podrá recopilar directamente datos necesarios para procesar la transacción. Fórmula Dinero podrá recibir información relacionada con la compra, como estado del pago, monto, fecha, identificadores de transacción y detalles limitados necesarios para administrar la Cuenta.</p>
+        <p>La información recopilada directamente por el procesador de pagos estará sujeta además a sus propias prácticas y políticas de privacidad.</p>
+      </section>
+
+      <section id="terceros">
+        <h2>12. Proveedores de servicios</h2>
+        <p>Podremos utilizar proveedores externos para operar Fórmula Dinero, incluyendo proveedores de:</p>
+        <ul>
+          <li>hosting e infraestructura;</li>
+          <li>almacenamiento y bases de datos;</li>
+          <li>Inteligencia Artificial;</li>
+          <li>procesamiento de pagos;</li>
+          <li>correo electrónico y comunicaciones;</li>
+          <li>videoconferencia y programación;</li>
+          <li>soporte al cliente;</li>
+          <li>analítica y monitoreo técnico;</li>
+          <li>seguridad; y</li>
+          <li>otros servicios necesarios para operar la Plataforma.</li>
+        </ul>
+        <p>Estos proveedores podrán procesar información en nuestro nombre en la medida razonablemente necesaria para prestar sus servicios.</p>
+      </section>
+
+      <section id="profesionales">
+        <h2>13. Proveedores financieros y profesionales</h2>
+        <p>FD podrá mantener acuerdos o integraciones con proveedores que ofrezcan productos o servicios que puedan resultar relevantes para las necesidades del Usuario, incluyendo:</p>
+        <ul>
+          <li>programas de manejo de deuda;</li>
+          <li>proveedores de soluciones o alivio de deuda;</li>
+          <li>aseguradoras, agencias y profesionales de seguros;</li>
+          <li>bancos y cooperativas de ahorro y crédito;</li>
+          <li>prestamistas y otros proveedores de crédito;</li>
+          <li>proveedores de servicios de inversión;</li>
+          <li>contadores y firmas de contabilidad;</li>
+          <li>preparadores de impuestos;</li>
+          <li>abogados y firmas legales;</li>
+          <li>profesionales de planificación patrimonial; y</li>
+          <li>otros proveedores profesionales o financieros.</li>
+        </ul>
+        <p>FD podrá utilizar información dentro de la Plataforma para identificar, de manera educativa, que un Usuario podría considerar determinada categoría de servicio. Esto no constituye aprobación ni determina elegibilidad.</p>
+        <p>Cuando sea necesario compartir información con un proveedor para que éste contacte, evalúe o atienda al Usuario, se hará únicamente cuando exista una base legal apropiada y, cuando sea requerido, después de obtener la autorización del Usuario.</p>
+      </section>
+
+      <section id="emc">
+        <h2>14. Cada Menudo, El Menudo Cuenta y separación de datos</h2>
+        <p>Fórmula Dinero podrá proporcionar enlaces de acceso a <strong>Cada Menudo ("CM")</strong> y <strong>El Menudo Cuenta ("EMC")</strong>. Actualmente, ambos servicios funcionan como plataformas separadas de Fórmula Dinero.</p>
+        <p>Al utilizar estos enlaces, el Usuario abandona la Plataforma de Fórmula Dinero y accede al servicio correspondiente. <strong>El registro en Fórmula Dinero no constituye un registro en CM o EMC.</strong> El Usuario deberá registrarse o iniciar sesión separadamente y aceptar los términos, políticas de privacidad y demás documentación aplicable a cada servicio.</p>
+        <div class="callout"><strong>La información personal y financiera suministrada a Fórmula Dinero se mantiene completamente separada de la información y los sistemas de Cada Menudo y El Menudo Cuenta.</strong></div>
+        <p>Actualmente, Fórmula Dinero no mantiene una integración automática de datos con CM o EMC. La información proporcionada por el Usuario a Fórmula Dinero no se transfiere automáticamente a CM o EMC por el hecho de acceder a dichos enlaces.</p>
+        <p>De igual forma, la información suministrada directamente a CM o EMC no pasa automáticamente a formar parte de Fórmula Dinero.</p>
+        <p>El creador de Fórmula Dinero es también cofundador de El Menudo Cuenta. Esta relación se divulga para que el Usuario conozca la existencia de una relación comercial o de afiliación entre ambas iniciativas. Dicha relación no implica que los datos de Fórmula Dinero se compartan automáticamente con EMC.</p>
+        <p>EMC es un servicio de inversión separado ofrecido por la entidad regulada correspondiente como asesor de inversiones registrado ("Registered Investment Adviser" o "RIA"), según corresponda. Para utilizarlo, el Usuario deberá completar de forma separada el proceso de registro, apertura de cuenta, evaluación, acuerdos y divulgaciones regulatorias requeridas.</p>
+        <p>CM mantiene igualmente su propio proceso de registro, términos y política de privacidad.</p>
+        <p>Fórmula Dinero podrá desarrollar en el futuro integraciones con CM o EMC. Si una futura integración implica intercambio, transferencia o acceso a información personal o financiera entre plataformas, Fórmula Dinero informará previamente al Usuario sobre el funcionamiento de dicha integración, los datos involucrados y su finalidad, y obtendrá cualquier consentimiento o autorización requerido por la legislación aplicable.</p>
+      </section>
+
+      <section id="compartir">
+        <h2>15. Cuándo podemos compartir información</h2>
+        <p>Podremos compartir información personal en las siguientes circunstancias:</p>
+        <ul>
+          <li>con proveedores que prestan servicios en nuestro nombre;</li>
+          <li>con proveedores financieros o profesionales cuando el Usuario lo solicite, autorice o cuando exista otra base legal apropiada;</li>
+          <li>con entidades afiliadas cuando sea necesario para prestar un Servicio solicitado y se haya informado adecuadamente al Usuario;</li>
+          <li>para cumplir una ley, orden judicial, proceso legal o solicitud gubernamental válida;</li>
+          <li>para proteger la seguridad, derechos o propiedad de FD, nuestros Usuarios o terceros;</li>
+          <li>para investigar fraude, abuso o incidentes de seguridad; y</li>
+          <li>en relación con una fusión, adquisición, reorganización, financiamiento, venta de activos u otra transacción corporativa, sujeto a las protecciones legalmente aplicables.</li>
+        </ul>
+      </section>
+
+      <section id="venta">
+        <h2>16. Venta de información, publicidad y marketing</h2>
+        <p><strong>Fórmula Dinero no vende información personal o financiera del Usuario a cambio de dinero.</strong></p>
+        <p>Podremos utilizar información de contacto para enviar comunicaciones sobre Fórmula Dinero cuando exista una base legal apropiada y conforme a las preferencias del Usuario.</p>
+        <p>Si en el futuro utilizamos tecnologías o participamos en actividades que sean consideradas legalmente una "venta", "sharing", publicidad dirigida o concepto equivalente bajo una ley aplicable, proporcionaremos los avisos y mecanismos de elección requeridos antes o al momento en que correspondan.</p>
+      </section>
+
+      <section id="cookies">
+        <h2>17. Cookies y tecnologías similares</h2>
+        <p>La Plataforma podrá utilizar cookies y tecnologías similares para mantener sesiones, recordar preferencias, mejorar seguridad, comprender el funcionamiento de la Plataforma y analizar su uso.</p>
+        <p>Determinadas cookies son necesarias para que el servicio funcione. Otras tecnologías de analítica o marketing, si se utilizan, podrán estar sujetas a consentimiento o mecanismos de exclusión según la jurisdicción del Usuario.</p>
+        <p>FD podrá implementar un aviso o centro de preferencias de cookies cuando sea necesario.</p>
+      </section>
+
+      <section id="retencion">
+        <h2>18. Retención de datos</h2>
+        <p>Conservaremos la información durante el tiempo razonablemente necesario para proporcionar los Servicios y cumplir los fines descritos en esta Política, incluyendo mantener continuidad histórica del dashboard y de la experiencia del Usuario.</p>
+        <p>El período de conservación podrá depender del tipo de información, la relación con el Usuario y necesidades operativas, contractuales, de seguridad, prevención de fraude, resolución de disputas y cumplimiento legal.</p>
+        <p>Cuando la información ya no sea razonablemente necesaria, podremos eliminarla, anonimizarla o conservarla únicamente cuando exista una razón legal o legítima para hacerlo.</p>
+      </section>
+
+      <section id="cancelacion">
+        <h2>19. Cancelación de servicio y eliminación de datos</h2>
+        <div class="callout"><strong>Cancelar la renovación de Fórmula Dinero no elimina automáticamente la Cuenta ni la información del Usuario.</strong></div>
+        <p>La cancelación de un Paquete y la eliminación de información son acciones diferentes.</p>
+        <p>Después de una cancelación o vencimiento, FD podrá conservar la Cuenta y determinada información para mantener historial y continuidad, permitir una futura reactivación, mantener registros de transacciones, atender consultas, prevenir fraude, resolver disputas y cumplir obligaciones legales u operativas legítimas.</p>
+        <p>El Usuario podrá solicitar la eliminación de su información utilizando los canales indicados en esta Política.</p>
+        <p>Una solicitud de eliminación estará sujeta a la legislación aplicable y a cualquier información que debamos o podamos conservar legítimamente.</p>
+      </section>
+
+      <section id="derechos">
+        <h2>20. Derechos y opciones del Usuario</h2>
+        <p>Dependiendo de dónde resida y de la legislación aplicable, el Usuario podrá tener derechos relacionados con su información personal, incluyendo algunos o todos los siguientes:</p>
+        <ul>
+          <li>conocer qué información mantenemos y cómo la utilizamos;</li>
+          <li>solicitar acceso a su información;</li>
+          <li>corregir información inexacta;</li>
+          <li>solicitar eliminación;</li>
+          <li>solicitar una copia o portabilidad de determinada información;</li>
+          <li>oponerse o solicitar limitaciones a determinados usos;</li>
+          <li>retirar un consentimiento cuando el tratamiento dependa de dicho consentimiento;</li>
+          <li>optar por no participar en determinadas formas de publicidad dirigida, venta o intercambio cuando la ley lo requiera; y</li>
+          <li>no recibir trato discriminatorio por ejercer derechos de privacidad que legalmente le correspondan.</li>
+        </ul>
+        <p>Estos derechos no son absolutos y pueden estar sujetos a excepciones legales.</p>
+        <p>Para proteger la información, podremos solicitar datos razonablemente necesarios para verificar la identidad del Usuario antes de procesar determinadas solicitudes.</p>
+      </section>
+
+      <section id="internacional">
+        <h2>21. Usuarios internacionales</h2>
+        <p>Fórmula Dinero podrá ser utilizado por personas ubicadas en distintos países.</p>
+        <p>Las leyes de privacidad varían por jurisdicción. Esta Política busca describir nuestras prácticas generales sin limitar derechos obligatorios que correspondan al Usuario conforme a la legislación aplicable.</p>
+        <p>Cuando una ley aplicable otorgue derechos adicionales o imponga requisitos obligatorios, procuraremos atenderlos según corresponda.</p>
+      </section>
+
+      <section id="transferencias">
+        <h2>22. Transferencias internacionales de información</h2>
+        <p>Fórmula Dinero y sus proveedores podrán procesar o almacenar información en Estados Unidos u otros países distintos de aquel donde reside el Usuario.</p>
+        <p>Cuando una transferencia internacional requiera salvaguardas específicas bajo la legislación aplicable, procuraremos utilizar los mecanismos legalmente apropiados.</p>
+      </section>
+
+      <section id="seguridad">
+        <h2>23. Seguridad</h2>
+        <p>Fórmula Dinero utiliza medidas administrativas, técnicas y organizativas razonables destinadas a proteger la información contra acceso, pérdida, uso, alteración o divulgación no autorizados.</p>
+        <p>Sin embargo, ningún sistema de almacenamiento o transmisión electrónica puede garantizar seguridad absoluta.</p>
+        <p>El Usuario es responsable de proteger su contraseña, dispositivos y credenciales y deberá notificarnos si sospecha que su Cuenta ha sido comprometida.</p>
+      </section>
+
+      <section id="menores">
+        <h2>24. Menores</h2>
+        <p>Fórmula Dinero está dirigido a personas de dieciocho (18) años o más o que hayan alcanzado la mayoría de edad aplicable en su jurisdicción.</p>
+        <p>No está diseñado para que menores creen cuentas independientemente. Si determinamos que hemos recopilado información personal de una persona que no tenía capacidad para proporcionar el consentimiento requerido, tomaremos las medidas apropiadas conforme a la legislación aplicable.</p>
+      </section>
+
+      <section id="enlaces">
+        <h2>25. Servicios y enlaces de terceros</h2>
+        <p>La Plataforma podrá contener enlaces, integraciones o acceso a servicios que no son operados por Xavier Serbia Multimedia LLC.</p>
+        <p>Las prácticas de privacidad de dichos terceros están reguladas por sus propias políticas. Recomendamos que el Usuario revise la documentación aplicable antes de proporcionar información directamente a un tercero.</p>
+      </section>
+
+      <section id="cambios">
+        <h2>26. Cambios a esta Política</h2>
+        <p>Podremos actualizar esta Política para reflejar cambios en nuestros Servicios, proveedores, tecnología, prácticas de privacidad o requisitos legales.</p>
+        <p>La fecha de "Última actualización" indicará cuándo fue modificada.</p>
+        <p>Cuando un cambio sea material, proporcionaremos el aviso y, cuando corresponda, solicitaremos el consentimiento requerido por la legislación aplicable.</p>
+      </section>
+
+      <section id="contacto">
+        <h2>27. Contacto y solicitudes de privacidad</h2>
+        <p>Fórmula Dinero es operado por:</p>
+        <p><strong>Xavier Serbia Multimedia LLC</strong></p>
+        <p>
+          <strong>Correo electrónico de privacidad:</strong> fd@xavierserbia.com<br>
+          <strong>Dirección postal:</strong> 600 NE 36 St 1505 Miami, Florida, 33137<br>
+          <strong>Sitio web:</strong> https://www.formuladinero.com
+        </p>
+        <p>El Usuario podrá utilizar estos canales para realizar preguntas sobre esta Política o presentar solicitudes relacionadas con acceso, corrección, eliminación u otros derechos de privacidad que puedan corresponderle.</p>
+      </section>
+    </article>
+
+    <div class="footer">
+      © Xavier Serbia Multimedia LLC. Todos los derechos reservados.
+    </div>
+  </main>
+</body>
+</html>
